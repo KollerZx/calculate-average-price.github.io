@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/styles.css" rel="stylesheet">
+  <title>Calcule</title>
+
+</head>
+
+<body>
+
+  <h2>Digite os valores abaixo</h2>
+  <div>
+    <div class="input-styles">
+      <label>
+        <input id="qtde" type="text"> Quantidade Atual
+      </label>
+    </div>
+    <div class="input-styles">
+      <label>
+        <input id="precoMedio" type="text"> Preço Medio
+      </label>
+    </div>
+    <div class="input-styles">
+      <label>
+        <input id="cotacao" type="text"> Cotação
+      </label>
+    </div>
+    <div class="input-styles">
+      <label>
+        <input id="qtdCompra" type="text"> Quantidade Compra
+      </label>
+    </div>
+
+    <button class="buttons" type="button" onclick="calcule()">Calcule</button>
+    <script src="script.js"></script>
+  </div>
+
+  <p id="resultado"></p>
+</body>
+
+</html>

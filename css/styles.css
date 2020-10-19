@@ -1,0 +1,26 @@
+body{
+  background-color: silver;
+
+}
+.input-styles{
+  padding-bottom: 10px;
+  font-family: sans-serif;
+}
+
+h2 {
+  font-size: x-large;
+  font-family: Verdana;
+  font-style: inherit;
+
+p {
+  font-size: medium;
+  font-family: Verdana;
+  font-style: inherit;
+}
+.buttons{
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
