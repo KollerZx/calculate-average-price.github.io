@@ -7,7 +7,7 @@ function calcule() {
   let compra = qtdeCompra * cotacao;
   let custoNovo = compra + custo;
   let qtdAt = qtde + qtdeCompra;
-  let pm = custoNovo / qtdAt;
+  let pm = (custoNovo / qtdAt).toFixed(2);
 
   return (document.getElementById("resultado").innerHTML = "R$ " + pm);
 }

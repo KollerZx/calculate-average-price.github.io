@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -10,35 +10,44 @@
 </head>
 
 <body>
+  <div class="conteiner-forms">
+    <h2>Calcule seu Preço médio</h2>
+    <form>
+      <div class="input-styles">
+        <label>
+          <input id="qtde" type="text"> Quantidade Atual
+        </label>
+      </div>
+      <div class="input-styles">
+        <label>
+          <input id="precoMedio" type="text"> Preço Medio
+        </label>
+      </div>
+      <div class="input-styles">
+        <label>
+          <input id="cotacao" type="text"> Cotação
+        </label>
+      </div>
+      <div class="input-styles">
+        <label>
+          <input id="qtdCompra" type="text"> Quantidade Compra
+        </label>
+      </div>
 
-  <h2>Digite os valores abaixo</h2>
-  <div>
-    <div class="input-styles">
-      <label>
-        <input id="qtde" type="text"> Quantidade Atual
-      </label>
-    </div>
-    <div class="input-styles">
-      <label>
-        <input id="precoMedio" type="text"> Preço Medio
-      </label>
-    </div>
-    <div class="input-styles">
-      <label>
-        <input id="cotacao" type="text"> Cotação
-      </label>
-    </div>
-    <div class="input-styles">
-      <label>
-        <input id="qtdCompra" type="text"> Quantidade Compra
-      </label>
-    </div>
-
-    <button class="buttons" type="button" onclick="calcule()">Calcule</button>
-    <script src="script.js"></script>
+      <button id="buttons" type="button" onclick="calcule()">Calcule</button>
+      <script src="script.js"></script>
+    </form>
   </div>
-
-  <p id="resultado"></p>
+  <div class="conteiner-results">
+    <p>Seu novo preço médio é:</p>
+    <p id="resultado"></p>
+  </div>
+  <div>
+    <footer>
+      <p>Desenvolvido by KollerZx</p>
+      <a href='https://instagram.com/kollerzx'>Henrique Koller</a>
+    </footer>
+  </div>
 </body>
 
 </html>

@@ -1,26 +1,56 @@
 body{
-  background-color: silver;
-
+  background-image: url(https://images.pexels.com/photos/159888/pexels-photo-159888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 }
 .input-styles{
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   font-family: sans-serif;
+  margin-left: 10px;
+  color: white;
 }
 
 h2 {
-  font-size: x-large;
-  font-family: Verdana;
-  font-style: inherit;
+  font-size: 35pt;
+  text-align: center;
+  color:gold;
+}
 
-p {
-  font-size: medium;
-  font-family: Verdana;
+#resultado{
+  font-size: 25px;
   font-style: inherit;
+  text-align: center;
+  color:gold;
+
 }
-.buttons{
-  border-radius: 10px;
-  width: 100px;
-  height: 30px;
-  font-size: 15px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+#buttons{
+  border-radius: 15px;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-left: 60px;
 }
+.conteiner-forms{
+  margin-left: 500px; 
+  width: 450px;
+  background: transparent;
+  border-width: 10px;
+  border-radius: 20px; 
+  font-size: 20px;
+}
+.conteiner-results{
+  width: 300px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background:transparent;
+  border-width: 20x;
+  border-radius: 20px;
+  font-size: x-large;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+footer{
+  text-align: justify;
+  font-size: medium;
+  color: white;
+}
+
