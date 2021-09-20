@@ -1,13 +1,13 @@
-function calcule() {
-  let precoMedio = parseFloat(document.getElementById("precoMedio").value);
-  let qtde = parseFloat(document.getElementById("qtde").value);
-  let cotacao = parseFloat(document.getElementById("cotacao").value);
-  let qtdeCompra = parseFloat(document.getElementById("qtdCompra").value);
-  let custo = precoMedio * qtde;
-  let compra = qtdeCompra * cotacao;
-  let custoNovo = compra + custo;
-  let qtdAt = qtde + qtdeCompra;
-  let pm = (custoNovo / qtdAt).toFixed(2);
+function calculateAveragePrice() {
+  let averageSharePrice = parseFloat(document.getElementById("averageSharePrice").value);
+  let quantity = parseFloat(document.getElementById("quantity").value);
+  let currentPrice = parseFloat(document.getElementById("currentPrice").value);
+  let quantityPurchased = parseFloat(document.getElementById("quantityPurchased").value);
+  let walletCost = averageSharePrice * quantity;
+  let buy = quantityPurchased * currentPrice;
+  let updatedCost = buy + walletCost;
+  let updatedQuantity = quantity + quantityPurchased;
+  let newAveragePrice = (updatedCost / updatedQuantity).toFixed(2);
 
-  return (document.getElementById("resultado").innerHTML = "R$ " + pm);
+  return (document.getElementById("newAveragePrice").innerHTML = "R$ " + newAveragePrice);
 }
