@@ -41,9 +41,9 @@ a:hover {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100VH;
-  background: rgba(255, 255, 255, 0.1);
-  opacity: 80%;
+  height: 100vh;
+  background: linear-gradient(321.93deg, #011E42 47.06%, rgba(1, 30, 66, 0.65) 120.61%);
+  opacity: 50%;
   z-index: -1;
 }
 
