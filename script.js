@@ -3,6 +3,7 @@ function calculateAveragePrice() {
   let quantity = parseFloat(document.getElementById("quantity").value);
   let currentPrice = parseFloat(document.getElementById("currentPrice").value);
   let quantityPurchased = parseFloat(document.getElementById("quantityPurchased").value);
+
   let walletCost = averageSharePrice * quantity;
   let buy = quantityPurchased * currentPrice;
   let updatedCost = buy + walletCost;
